@@ -1,0 +1,41 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE and editor configurations
+.vscode/
+.idea/
+
+# Ignore Flask specific files
+instance/
+*.db
+
+# Ignore logs and temp files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore matplotlib generated files
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Ignore CSV and other data files that may contain sensitive information
+*.csv
+*.xlsx
+*.json
+
+# Ignore the Python virtual environment if using pipenv or poetry
+Pipfile.lock
+poetry.lock
